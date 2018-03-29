@@ -7,19 +7,9 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
 /tmp
-Gemfile.lock
-config/database.yml
-<<<<<<< HEAD
-config/secrets.yml
-=======
-config/secrets.yml
-Gemfile
->>>>>>> 636baee2fe7e0d5978303af2e19e7dc27079a01d
+
