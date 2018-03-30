@@ -10,25 +10,15 @@
 </head>
 <body>
     <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active">
-                <%= link_to "Home", root_path %>
-            </li>
-            <li role="presentation">
-                <%= link_to "Sobre", sobre_path %>
-            </li>
-            <li role="presentation"><%= link_to "Artigos", posts_path %></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Blog de Desenvolvimento</h3>
-      </div>
-      
-      
-    <%= yield %>
+        <%= render "layouts/header" %>
+            <%= yield %>
+    </div>
+    
+    <div class="container">
       <footer class="footer">
-        <p>&copy; 2018 Davi Cândido, Inc.</p>
+        <p>
+            &copy; 2018 Davi Cândido, Inc.
+        </p>
       </footer>    
     </div>
 </body>
